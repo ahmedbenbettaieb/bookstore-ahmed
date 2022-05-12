@@ -82,7 +82,7 @@ namespace Bookstore.Controllers
             }
         }
 
-        // GET: Author/Delete/5
+        // GET: Author/Delete/6
         public ActionResult Delete(int id)
         {
             var author = authorRepository.Find(id);
